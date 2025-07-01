@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffcccc; /* rojo claro */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#output {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  text-align: left;
+}
+
+#output:hover {
+  background-color: #959595; /* gris claro */
+  cursor: pointer;
+}
